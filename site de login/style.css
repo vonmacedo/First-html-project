@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
     padding: 0;
     margin: 0;
-  font-family: 'Open Sans',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
  .teste{
   background-color: gray;
@@ -10,18 +10,19 @@
  }
 
 body{
-    background-color: white
+
+
 }
 .img    {
     padding-top: 30px;
     padding-bottom: 30px;
-    text-align: center
+    text-align: center;
+ 
     
 }
 
 .dados{
   text-align: center;
- border: 100px solid rebeccapurple;
   
 
 }
@@ -33,6 +34,7 @@ border-style: groove;
 }
 
   .wel{
+
     text-align: center;
     padding-top: -50px;
 
@@ -40,7 +42,7 @@ border-style: groove;
    
   }
  button:hover{
-  background-color: wheat;
+ opacity: 0.7;
  }
  
  label{
@@ -52,16 +54,29 @@ border-style: groove;
   text-align: left;
   text-transform: uppercase;
  }
- .tel {
-  margin-top: 10px;
+ .tel{  
+ 
+  font-size: larger;
+  text-align: center;
   color: red;
  }
+ h3{
+  margin-top:176px;
+  text-align: center;
+ }
  a{
+  font-size: medium;
   color: blue;
  }
  a:hover{
   color: red;
  }
 button{
-  width: 120px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+  width:120px ;
+}
+.pp{
+  font-size: medium;
+  display: inline;
 }
